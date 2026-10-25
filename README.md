@@ -22,15 +22,15 @@ The only characters accepted are As, Rs, Gs, Hs and whitespaces. Any other chara
 
 ### Instruction Handling
 Commands are written in the following format:
-‘’’
+```
 [function call] [argument 1] [argument 2] [argument 3, etc.] ARGH
-‘’’
+```
 Whitespaces are included in the actual code. Function calls are written as [The function name, which is a number of As]H. The ARGH serves as a delimiter that marks the end of the command.
 Comments are denoted as GRR.
 
 #### Example: Hello World
-‘’’
+```
 AAAH aAaaAaaaHaAAaaAaAHaAAaAAaaHaAAaAAaaHaAAaAAAAHaaAaaaaaHaAaAaAAAHaAAaAAAAHaAAAaaAaHaAAaAAaaHaAAaaAaaH ARGH
 GRR AAAH -> Print
 GRR Strings are represented in binary where a means 0 and A means 1. Each a/A is 1 bit. A letter is 1 byte (8 bits) long. The letter H is used in the string to separate letters.
-‘’’
+```
