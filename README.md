@@ -16,6 +16,8 @@ AAAHLANGGGGG mostly consists of screams in its syntax except for comments, which
 ### Memory
 Wait, you have to DEFINE this? AAAAAAAAAAAAAAAA-
 
+Anyway, memory consists of variables.
+
 ## Syntax 
 ### Source Characters
 The only characters accepted are As, Rs, Gs, Hs and whitespaces. Any other character will result in the interpreter screaming.
@@ -36,7 +38,10 @@ GRR Strings are represented in binary where a means 0 and A means 1. Each a/A is
 ```
 
 ## Instruction Set
+*Italicised* arguments are optional.
 | Function call | Description | Arguments |
 |---|---|---|
-| AH | Defines a new function | *Function name*, Command 1, Command 2, etc. |
-| AAH |
+| AH | Defines a new function | Function name*, Command 1, *Command 2, etc.* |
+| AAH | Defines a new variable | Variable name†, *initial value* |
+*User-defined functions do not need a H at the end of the name to call them. (This is to make them distinct from predefined functions)
+†Variables consist only of Hs.
