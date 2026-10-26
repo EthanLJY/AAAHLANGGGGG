@@ -41,5 +41,6 @@ GRR Strings are represented in binary where a means 0 and A means 1. Each a/A is
 |---|---|---|
 | AH | Defines a new function | Function name*, Command 1, *Command 2, etc.* |
 | AAH | Defines a new variable | Variable name†, *initial value* |
+
 *User-defined functions do not need a H at the end of the name to call them. (This is to make them distinct from predefined functions)
 †Variables consist only of Hs.
