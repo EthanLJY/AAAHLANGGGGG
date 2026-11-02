@@ -18,7 +18,7 @@ Anyway, memory consists of variables.
 
 ## Syntax 
 ### Source Characters
-The only characters accepted are As, Rs, Gs, Hs and whitespaces. Any other character will result in the interpreter screaming.
+The only characters accepted are As (uppercase and lowercase), Rs, Gs, Hs and whitespaces. Any other character will result in the interpreter screaming.
 
 ### Instruction Handling
 Commands are written in the following format:
